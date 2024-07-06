@@ -1,0 +1,28 @@
+body{
+    padding: 10px;
+    margin: 0;
+    user-select: none;
+}
+th{
+    background-color: #04AA6D;;
+}
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+th, td {
+    padding: 15px;
+    text-align: left;
+  }
+
+  tr:nth-child(even){
+    background-color: #200303
+}
+
+tr:hover{
+    background: rgb(32, 66, 117);
+    color: rgb(255, 255, 255);
+}
+td:hover{
+    font-size: 22px;
+}
