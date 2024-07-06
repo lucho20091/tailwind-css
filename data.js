@@ -7,7 +7,10 @@ const flexbox = {
     "flex-grow: 1" : "flex-grow",
     "flex-grow: 0" : "flex-grow-0",
     "flex-shrink: 1" : "flex-shrink",
-    "flex-shrink: 0" : "flex-shrink-0"
+    "flex-shrink: 0" : "flex-shrink-0",
+    "order: -9999" : "order.first",
+    "order: 9999" : "order.last",
+    "order: 1" : "order-1"
 }
 
 const display = {

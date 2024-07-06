@@ -19,7 +19,7 @@ for (let item in data.flexbox){
 <tr>
     <td>${item}</td>
     <td>${data.flexbox[item]}</td>
-    <td>${keys[0]}</td>
+    <td>${keys[0][0].toUpperCase() + keys[0].slice(1)}</td>
 </tr>
     `
 }
@@ -31,7 +31,7 @@ for (let item in data.display){
 <tr>
     <td>${item}</td>
     <td>${data.display[item]}</td>
-    <td>${keys[1]}</td>
+    <td>${keys[1][0].toUpperCase() + keys[1].slice(1)}</td>
 </tr>
     `
 }
